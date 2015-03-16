@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">LIVE Interactive Magazine</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_auth_activty">AuthActivty</string>
+    <string name="sign_title">Войти через аккаунт</string>
+    <string name="sign_title1">Войти через соцсеть</string>
+    <string name="sign_title_signup">Регистрация</string>
+    <string name="sign_forget_password">Забыли пароль</string>
+    <string name="sign_title2">Создовая аккаунт вы принимаете</string>
+    <string name="sign_user_agreement">Условие пользовтельского соглашения</string>
+    <string name="sign_sign">Войти</string>
+    <string name="network_error">Проверьте Ваше подключение к сети</string>
+    <string name="title_activity_user_agreement">UserAgreementActivity</string>
+    <string name="title_activity_forget_password">ForgetPasswordActivity</string>
+    <string name="sign_up_title">Регистрация</string>
+    <string name="sign_up_login">Логин</string>
+    <string name="sign_up_email">Email</string>
+    <string name="sign_up_password">Пароль</string>
+    <string name="sign_up_confirm_password">Подтвердите пароль</string>
+    <string name="sign_sign_up">Зарегистрировать</string>
+    <string name="title_activity_list_album">ListAlbumActivity</string>
+    <string name="enter_all_edit">Заполните все поля</string>
+    <string name="no_valid_email">Введите валидный email</string>
+    <string name="password_not_equals">Пароли не совпадают</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="title_activity_greed_photo">GreedPhotoActivity</string>
+</resources>

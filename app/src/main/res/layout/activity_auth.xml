@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.aod.clubapp.ui.activity.AuthActivity">
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="7">
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/splash_01"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/splash_02"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/splash_03"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/splash_04"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/splash_05"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/splash_06"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/splash_07"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="@dimen/auth_image_size"
+        android:layout_height="@dimen/auth_image_size"
+        android:background="@drawable/auth_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:id="@+id/auth_image"/>
+ <FrameLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:layout_marginTop="@dimen/activity_vertical_margin"
+     android:layout_marginLeft="@dimen/activity_vertical_margin"
+     android:layout_marginRight="@dimen/activity_vertical_margin"
+     android:layout_below="@+id/auth_image"
+     android:id="@+id/auth_container"
+     />
+
+
+</RelativeLayout>

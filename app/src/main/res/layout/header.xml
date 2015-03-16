@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <com.aod.clubapp.ui.view.HeaderLayout
+        android:id="@+id/header_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/header_background"
+        android:paddingBottom="@dimen/header_padding_bottom"
+        android:paddingLeft="@dimen/header_padding_left"
+        android:paddingRight="@dimen/header_padding_left"
+        android:paddingTop="@dimen/header_padding_bottom">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|left"
+            android:layout_toLeftOf="@+id/img_like"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_like"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/img_like"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/white"
+
+            />
+
+        <ImageView
+            android:id="@+id/img_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/like_count"
+            android:src="@drawable/ic_action_action_favorite" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/date"
+            android:layout_below="@+id/text1"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white" />
+
+
+    </com.aod.clubapp.ui.view.HeaderLayout>
+</RelativeLayout>

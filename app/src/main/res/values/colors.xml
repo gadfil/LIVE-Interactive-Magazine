@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="auth_background">#cc04030b</color>
+    <color name="ultramarin">#750669</color>
+    <color name="header_background">#99000000</color>
+    <color name="primary_color_dark">#99000000</color>
+</resources>
